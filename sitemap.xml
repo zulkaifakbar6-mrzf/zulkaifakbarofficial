@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+     Mr ZF sitemap
+     REPLACE "mr-zf-store.vercel.app" with your final live domain
+     after you deploy (keep the https:// part).
+     ============================================================ -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://mr-zf-store.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/shop.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/appointment.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/shipping.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/returns.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://mr-zf-store.vercel.app/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

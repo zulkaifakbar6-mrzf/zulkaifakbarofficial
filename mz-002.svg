@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Mr ZF Everyday Oxford Shirt">
+  <rect width="600" height="800" fill="#EFEAE1"/>
+  <rect x="20" y="20" width="560" height="760" fill="none" stroke="#DCD3C3" stroke-width="1.5"/>
+  <ellipse cx="300" cy="648" rx="175" ry="13" fill="#E0D8C7"/>
+  <path d="M300 250 L268 224 L215 238 L150 310 L196 368 L228 334 L224 612 L376 612 L372 334 L404 368 L450 310 L385 238 L332 224 Z" fill="#F1EDE2" stroke="#26241F" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M268 224 L302 250 L266 258 Z" fill="#E9E4D8" stroke="#26241F" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M332 224 L298 250 L334 258 Z" fill="#E9E4D8" stroke="#26241F" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="266" cy="252" r="3" fill="#26241F"/>
+  <circle cx="334" cy="252" r="3" fill="#26241F"/>
+  <line x1="300" y1="258" x2="300" y2="612" stroke="#26241F" stroke-width="3"/>
+  <line x1="290" y1="290" x2="290" y2="600" stroke="#C9C0AE" stroke-width="2"/>
+  <line x1="310" y1="290" x2="310" y2="600" stroke="#C9C0AE" stroke-width="2"/>
+  <circle cx="300" cy="322" r="3.5" fill="#26241F"/>
+  <circle cx="300" cy="372" r="3.5" fill="#26241F"/>
+  <circle cx="300" cy="422" r="3.5" fill="#26241F"/>
+  <circle cx="300" cy="472" r="3.5" fill="#26241F"/>
+  <circle cx="300" cy="522" r="3.5" fill="#26241F"/>
+  <circle cx="300" cy="572" r="3.5" fill="#26241F"/>
+  <rect x="226" y="318" width="46" height="50" fill="none" stroke="#26241F" stroke-width="2.5"/>
+  <line x1="224" y1="588" x2="376" y2="588" stroke="#B08D57" stroke-width="2.5" stroke-dasharray="7 6"/>
+  <text x="44" y="736" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="6" fill="#141414">MR ZF</text>
+  <text x="556" y="736" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="2" fill="#A79E8B">MZ-002</text>
+</svg>

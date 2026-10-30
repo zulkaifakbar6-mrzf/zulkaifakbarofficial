@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Mr ZF Bomber Jacket">
+  <rect width="600" height="800" fill="#EFEAE1"/>
+  <rect x="20" y="20" width="560" height="760" fill="none" stroke="#DCD3C3" stroke-width="1.5"/>
+  <ellipse cx="300" cy="628" rx="180" ry="13" fill="#E0D8C7"/>
+  <path d="M300 252 L266 228 L214 242 L152 314 L196 370 L226 336 L220 560 L380 560 L374 336 L404 370 L448 314 L386 242 L334 228 Z" fill="#F8F5EE" stroke="#26241F" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M262 226 Q300 252 338 226 L334 248 Q300 272 266 248 Z" fill="#EFEAE1" stroke="#26241F" stroke-width="3.5" stroke-linejoin="round"/>
+  <line x1="300" y1="268" x2="300" y2="560" stroke="#26241F" stroke-width="5"/>
+  <line x1="300" y1="272" x2="300" y2="556" stroke="#EFEAE1" stroke-width="2" stroke-dasharray="3 4"/>
+  <rect x="296" y="298" width="8" height="18" rx="2" fill="#26241F"/>
+  <line x1="436" y1="330" x2="412" y2="352" stroke="#26241F" stroke-width="3"/>
+  <line x1="164" y1="330" x2="188" y2="352" stroke="#26241F" stroke-width="3"/>
+  <line x1="232" y1="452" x2="266" y2="494" stroke="#26241F" stroke-width="2.5"/>
+  <line x1="368" y1="452" x2="334" y2="494" stroke="#26241F" stroke-width="2.5"/>
+  <rect x="220" y="560" width="160" height="34" fill="#E4DECF" stroke="#26241F" stroke-width="3.5"/>
+  <line x1="236" y1="564" x2="236" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="252" y1="564" x2="252" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="268" y1="564" x2="268" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="284" y1="564" x2="284" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="316" y1="564" x2="316" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="332" y1="564" x2="332" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="348" y1="564" x2="348" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <line x1="364" y1="564" x2="364" y2="590" stroke="#B9B09B" stroke-width="1.5"/>
+  <text x="44" y="736" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="6" fill="#141414">MR ZF</text>
+  <text x="556" y="736" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="2" fill="#A79E8B">MZ-007</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="The Mr ZF everyday edit — shirts and tees on a rail">
+  <rect width="600" height="800" fill="#EAE4D9"/>
+  <rect x="22" y="22" width="556" height="756" fill="none" stroke="#D8CEBB" stroke-width="1.5"/>
+
+  <!-- rail -->
+  <line x1="70" y1="132" x2="530" y2="132" stroke="#26241F" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="70" cy="132" r="7" fill="#26241F"/>
+  <circle cx="530" cy="132" r="7" fill="#26241F"/>
+
+  <!-- price tag -->
+  <line x1="470" y1="132" x2="470" y2="168" stroke="#26241F" stroke-width="2.5"/>
+  <rect x="450" y="168" width="42" height="58" rx="4" fill="#F7F4EC" stroke="#26241F" stroke-width="2.5"/>
+  <text x="471" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="14" letter-spacing="1" fill="#141414">ZF</text>
+  <circle cx="471" cy="210" r="3" fill="#B08D57"/>
+
+  <!-- hooks: rail to collar -->
+  <path d="M196 132 C196 148 204 152 206 162" fill="none" stroke="#26241F" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M400 132 C400 148 404 156 401 170" fill="none" stroke="#26241F" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- floor shadows -->
+  <ellipse cx="190" cy="412" rx="125" ry="12" fill="#DFD7C5" opacity="0.8"/>
+  <ellipse cx="400" cy="398" rx="118" ry="12" fill="#DFD7C5" opacity="0.8"/>
+
+  <!-- hanging shirt (Classic Shirt artwork) -->
+  <g transform="translate(4,26) scale(0.62)">
+    <path d="M300 250 L268 224 L215 238 L150 310 L196 368 L228 334 L224 612 L376 612 L372 334 L404 368 L450 310 L385 238 L332 224 Z" fill="#F8F5EE" stroke="#26241F" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M268 224 L300 250 L300 286 L256 252 Z" fill="#EFEAE1" stroke="#26241F" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M332 224 L300 250 L300 286 L344 252 Z" fill="#EFEAE1" stroke="#26241F" stroke-width="3.5" stroke-linejoin="round"/>
+    <line x1="300" y1="286" x2="300" y2="612" stroke="#26241F" stroke-width="3"/>
+    <line x1="224" y1="588" x2="376" y2="588" stroke="#B08D57" stroke-width="2.5" stroke-dasharray="7 6"/>
+  </g>
+
+  <!-- hanging tee (Essential Tee artwork) -->
+  <g transform="translate(214,26) scale(0.62)">
+    <path d="M262 232 C282 258 318 258 338 232 L376 240 L444 306 L420 356 L382 318 L378 592 L222 592 L218 318 L180 356 L156 306 L224 240 Z" fill="#F8F5EE" stroke="#26241F" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M262 232 C282 258 318 258 338 232" fill="none" stroke="#26241F" stroke-width="4" stroke-linecap="round"/>
+    <line x1="222" y1="570" x2="378" y2="570" stroke="#B08D57" stroke-width="2.5" stroke-dasharray="7 6"/>
+  </g>
+
+  <!-- folded stack -->
+  <g>
+    <rect x="404" y="600" width="128" height="30" rx="4" fill="#F8F5EE" stroke="#26241F" stroke-width="3"/>
+    <rect x="412" y="630" width="120" height="28" rx="4" fill="#EFE8DA" stroke="#26241F" stroke-width="3"/>
+    <rect x="420" y="658" width="112" height="26" rx="4" fill="#F8F5EE" stroke="#26241F" stroke-width="3"/>
+    <line x1="428" y1="671" x2="524" y2="671" stroke="#B08D57" stroke-width="2" stroke-dasharray="6 5"/>
+  </g>
+
+  <text x="70" y="726" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="7" fill="#6F6A60">THE EVERYDAY EDIT</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Founder portrait placeholder for Zulkaif Akbar">
+  <rect width="600" height="750" fill="#E9E3D6"/>
+  <rect x="22" y="22" width="556" height="706" fill="none" stroke="#D8CEBB" stroke-width="1.5"/>
+  <text x="300" y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing="11" fill="#8F8778">MR ZF</text>
+  <text x="300" y="392" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="150" letter-spacing="14" fill="#141414">ZF</text>
+  <rect x="256" y="428" width="88" height="5" fill="#B08D57"/>
+  <text x="300" y="498" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" letter-spacing="9" fill="#141414">ZULKAIF AKBAR</text>
+  <text x="300" y="536" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="5" fill="#8F8778">FOUNDER — MR ZF</text>
+  <text x="300" y="700" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="4" fill="#A79E8B">ADD YOUR PORTRAIT HERE</text>
+</svg>

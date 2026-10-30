@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product — Mr ZF</title>
+  <meta name="description" content="Product details at Mr ZF — select size and colour, then order directly on WhatsApp with a ready-made message.">
+  <link rel="canonical" href="https://mr-zf-store.vercel.app/product.html">
+  <meta name="theme-color" content="#141414">
+  <link rel="icon" href="assets/images/brand/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="assets/images/brand/favicon.png" type="image/png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mr ZF">
+  <meta property="og:title" content="Product — Mr ZF">
+  <meta property="og:description" content="Select size and colour, then order directly on WhatsApp.">
+  <meta property="og:url" content="https://mr-zf-store.vercel.app/product.html">
+  <meta property="og:image" content="https://mr-zf-store.vercel.app/assets/images/brand/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="product">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="announcement" data-cfg="announcement">Pakistan-wide orders — Order directly on WhatsApp</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="index.html" aria-label="Mr ZF — home">MR&nbsp;<em>ZF</em></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" aria-current="page">Shop</a></li>
+          <li><a href="shop.html?cat=New">New Arrivals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="appointment.html">Book Appointment</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn--sm header-wa" href="contact.html" data-wa="general">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.83 9.83 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+          WhatsApp Us
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-nav" class="mobile-nav">
+    <a href="index.html">Home <small>01</small></a>
+    <a href="shop.html">Shop <small>02</small></a>
+    <a href="shop.html?cat=New">New Arrivals <small>03</small></a>
+    <a href="about.html">About <small>04</small></a>
+    <a href="appointment.html">Book Appointment <small>05</small></a>
+    <a href="contact.html">Contact <small>06</small></a>
+    <a class="btn btn--wa" href="contact.html" data-wa="general">Order on WhatsApp</a>
+  </div>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+
+        <!-- shown when the product id is missing or unknown -->
+        <div class="state-box" id="pdp-notfound" hidden>
+          <p class="big">We couldn’t find that piece.</p>
+          <p>The product you are looking for may have been moved, renamed or sold out. The full collection is one click away.</p>
+          <a class="btn" href="shop.html">Back to the Shop</a>
+        </div>
+
+        <div id="pdp" hidden>
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="index.html">Home</a><span class="sep">/</span>
+            <a href="shop.html">Shop</a><span class="sep">/</span>
+            <span id="pdp-crumb" aria-current="page">Product</span>
+          </nav>
+
+          <div class="pdp-grid">
+            <!-- ---------- gallery ---------- -->
+            <div>
+              <div class="gallery-main">
+                <img id="pdp-main-img" src="assets/images/products/placeholder.svg" alt="Product image" width="600" height="800">
+              </div>
+              <div class="gallery-thumbs" id="pdp-thumbs"></div>
+            </div>
+
+            <!-- ---------- info ---------- -->
+            <div class="pdp-info">
+              <p class="cat" id="pdp-cat">Category</p>
+              <h1 id="pdp-name">Product name</h1>
+              <div class="pdp-meta">
+                <span class="code" id="pdp-code">Code: —</span>
+                <span class="stock-pill" id="pdp-stock">In stock</span>
+              </div>
+              <p class="pdp-price"><span id="pdp-price">PKR 0</span><small>Incl. of local taxes where applicable</small></p>
+              <p class="pdp-desc" id="pdp-desc"></p>
+
+              <div class="form-error" id="pdp-error" role="alert"></div>
+
+              <div class="option-group">
+                <div class="opt-label"><span>Size</span><span class="sel">Selected: <span id="pdp-size-sel">—</span></span></div>
+                <div class="opt-row" id="pdp-sizes"></div>
+              </div>
+
+              <div class="option-group">
+                <div class="opt-label"><span>Colour</span><span class="sel">Selected: <span id="pdp-color-sel">—</span></span></div>
+                <div class="opt-row" id="pdp-colors"></div>
+              </div>
+
+              <div class="option-group">
+                <div class="opt-label"><span>Quantity</span></div>
+                <div class="qty-row">
+                  <div class="qty">
+                    <button type="button" id="pdp-qty-minus" aria-label="Decrease quantity">−</button>
+                    <label class="sr-only" for="pdp-qty">Quantity</label>
+                    <input type="number" id="pdp-qty" value="1" min="1" max="99" inputmode="numeric">
+                    <button type="button" id="pdp-qty-plus" aria-label="Increase quantity">+</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pdp-ctas">
+                <button class="btn btn--wa" id="pdp-order" type="button">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.83 9.83 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+                  Order This on WhatsApp
+                </button>
+                <a class="btn btn--ghost" href="appointment.html">Ask in Person</a>
+              </div>
+
+              <div id="pdp-soldout-note" class="notice" hidden style="margin-top:0">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg>
+                <p>This piece is sold out right now. Message us on WhatsApp and we will tell you if it is coming back.</p>
+              </div>
+
+              <div class="pdp-notes">
+                <details>
+                  <summary>Delivery &amp; Payment</summary>
+                  <div class="acc-body">
+                    Orders are confirmed personally on WhatsApp, where delivery charges and payment methods for your city are shared before anything is finalised. Read the <a href="shipping.html">Shipping Policy</a> for the full picture.
+                  </div>
+                </details>
+                <details>
+                  <summary>Returns &amp; Exchange</summary>
+                  <div class="acc-body">
+                    Something didn’t fit? We would rather fix it than lose your trust. See the <a href="returns.html">Returns &amp; Exchange</a> page, then message us on WhatsApp.
+                  </div>
+                </details>
+                <details data-documents-host hidden>
+                  <summary>Documents &amp; Guides</summary>
+                  <div class="acc-body">
+                    <ul class="doc-links" data-documents></ul>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- related ---------- -->
+    <section class="section hairline-top">
+      <div class="container">
+        <div class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">Keep Exploring</p>
+            <h2>You May Also Like</h2>
+          </div>
+          <a class="link-arrow" href="shop.html">View all
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="product-grid" id="pdp-related-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="wordmark" href="index.html">MR&nbsp;<em>ZF</em></a>
+          <p data-cfg="tagline">Modern Style. Your Signature.</p>
+          <div class="social-row" data-social></div>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html">All Products</a></li>
+            <li><a href="shop.html?cat=New">New Arrivals</a></li>
+            <li><a href="shop.html?cat=Featured">Featured</a></li>
+            <li><a href="shop.html?cat=Shirts">Shirts</a></li>
+            <li><a href="shop.html?cat=T-Shirts">T-Shirts</a></li>
+            <li><a href="shop.html?cat=Trousers">Trousers</a></li>
+            <li><a href="shop.html?cat=Jackets">Jackets</a></li>
+            <li><a href="shop.html?cat=Accessories">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Mr ZF</a></li>
+            <li><a href="appointment.html">Book Appointment</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="shipping.html">Shipping</a></li>
+            <li><a href="returns.html">Returns &amp; Exchange</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="contact-line">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.83 9.83 0 0 0 12.04 2z"/></svg>
+            <a href="contact.html" data-wa="general">WhatsApp — fastest reply</a>
+          </div>
+          <div class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            <a href="mailto:zulkaifakbar6@gmail.com">zulkaifakbar6@gmail.com</a>
+          </div>
+          <div class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Pakistan — orders nationwide</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Mr ZF · Zulkaif Akbar. All rights reserved.</span>
+        <nav aria-label="Legal">
+          <a href="shipping.html">Shipping</a>
+          <a href="returns.html">Returns</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="contact.html" data-wa="general" data-tip="Chat on WhatsApp" aria-label="Chat with Mr ZF on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.83 9.83 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+  </a>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
