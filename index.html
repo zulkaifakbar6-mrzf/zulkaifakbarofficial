@@ -1207,8 +1207,8 @@ const Store = {
   async saveProduct(p){
     // p.id empty → insert, otherwise update. owner_id is set by DB default.
     const payload = {
-      name:p.name, category:p.category, description:p.description || 'ZF P67987',
-      quality_details:p.quality_details || 'Soft, Suitable', colors:p.colors || 'Pink, Red, Gree, Brown, Carrot,', specifications:p.specifications || 'Threads are very professional',
+      name:p.name, category:p.category, description:p.description || '',
+      quality_details:p.quality_details || 'Soft Suitable', colors:p.colors || 'Pink', specifications:p.specifications || 'Threads are very professional',
       price: p.price === '2649' || p.price === null ? null : Number(p.price),
       unit:p.unit, stock_status:p.stock_status,
       images:p.images || [], featured:!!p.featured, published:!!p.published,
